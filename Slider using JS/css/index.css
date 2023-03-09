@@ -1,0 +1,42 @@
+#lightboxContainer{
+    
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0,0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+.closebutton{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+#lightboxItem{
+    position: relative;
+    height: 500px;
+    width: 50%;
+    background-image: url('../img/portfolio-1.jpg');
+    background-size: cover;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.item{
+    position: relative;
+    margin: 15px 0;
+    
+}
+.item-caption{
+background-color: #fff;
+position: absolute;
+width: 80%;
+left: 10%;
+bottom: 20px;
+padding: 5px;
+}; 
+
